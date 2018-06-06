@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pkg-info overwrite-permissions="true" relocatable="false" identifier="org.python.Python.PythonFramework-3.6" postinstall-action="none" version="0" format-version="2" generator-version="InstallCmds-664.4 (17C88)" install-location="/Library/Frameworks/Python.framework" auth="root">
+    <payload numberOfFiles="2760" installKBytes="61392"/>
+    <bundle path="./Versions/3.6/Resources/Python.app" id="org.python.python" CFBundleShortVersionString="3.6.4" CFBundleVersion="3.6.4"/>
+    <bundle-version>
+        <bundle id="org.python.python"/>
+    </bundle-version>
+    <upgrade-bundle>
+        <bundle id="org.python.python"/>
+    </upgrade-bundle>
+    <update-bundle/>
+    <atomic-update-bundle/>
+    <strict-identifier>
+        <bundle id="org.python.python"/>
+    </strict-identifier>
+    <relocate/>
+    <scripts>
+        <postinstall file="./postinstall"/>
+    </scripts>
+</pkg-info>
